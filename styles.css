@@ -38,9 +38,9 @@ body {
   }
   
   .header-button {
-    width: 2rem;
+    width: 1.5rem;
     height: 0.2rem;
-    background: #000;
+    background: #582EE1;
     position: absolute;
     top: 1.1rem;
     transition: all 0.2s;
@@ -49,37 +49,40 @@ body {
   .header-button::before,
   .header-button::after {
     content: "";
-    width: 2rem;
+    width: 1.5rem;
     height: 0.2rem;
-    background: #000;
+    background:#582EE1;
     position: absolute;
-    top: -0.6rem;
+    top: -0.5rem;
     transition: all 0.2s;
   }
   
   .header-button::after {
-    top: 0.6rem;
+    top: 0.5rem;
   }
   
   .menu {
-    background: #0000FE;
+    background: #FFFFFF;
+    height: 100vh;
     width: 100%;
-    height: 19rem;
     position: fixed;
     z-index: 9;
-    top: -28rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    padding-top: 2rem;
     transition: all 0.5s;
+    font-size: 1.5em;
+    color:#582EE1;
+    letter-spacing: 0;
+    text-decoration: none;
+    list-style-type: none;
+    top: -28rem;
   }
   
   ul {
-    text-align: left;
     list-style: none;
-    background: #0000FE;
+    background:#582EE1;
     line-height: 2em;
     margin-left: -2em;
     margin-top: 2em;
@@ -98,7 +101,7 @@ body {
   }
   
   .checkbox:checked ~ .menu {
-    background: #fff;
+    background: #582EE1;
     top: 0rem;
   }
   
@@ -115,7 +118,7 @@ body {
     transform: rotate(-35deg);
     top: 0;
   }
-  
+
   .menu {
     font-family: IBMPlexMono;
     font-size: 1.5em;
