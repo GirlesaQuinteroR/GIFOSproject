@@ -61,11 +61,13 @@ body {
     top: 0.5rem;
   }
 
-  ul> li {
-    border-bottom: 1px solid white;
+  hr{
+    border: 1px solid white;
+    width: 100px;
+    align-items: center;
+    border-radius: 5px;
     
-    
-}
+  }
   
   .menu {
     background: #FFFFFF;
