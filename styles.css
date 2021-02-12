@@ -109,6 +109,7 @@ body {
   .checkbox:checked ~ .menu {
     background: #582EE1;
     top: 0rem;
+    z-index: 7;
   }
   
   .checkbox:checked + header .header-container label .header-button {
@@ -131,3 +132,17 @@ body {
     position: relative; 
   }
 
+  .buscador{
+    background-image: url('./assets/icon-search.svg');
+    background-position: right right ; 
+    background-size: 100% 100%; 
+    background-position-x: 31vw;
+    margin-top: 9px;
+    margin-left: 20px;
+    height: 2.5rem;
+    width: 80vw;
+    border-radius: 28px;
+    text-align: center;
+    align-content: center;
+    
+  }
