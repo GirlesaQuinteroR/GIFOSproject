@@ -40,7 +40,7 @@ body {
   .header-button {
     width: 1.5rem;
     height: 0.2rem;
-    background: #582EE1;
+    background: #572EE5;
     position: absolute;
     top: 1.1rem;
     transition: all 0.2s;
@@ -51,7 +51,7 @@ body {
     content: "";
     width: 1.5rem;
     height: 0.2rem;
-    background:#582EE1;
+    background:#572EE5;
     position: absolute;
     top: -0.5rem;
     transition: all 0.2s;
@@ -79,7 +79,7 @@ body {
     text-align: center;
     transition: all 0.5s;
     font-size: 1.5em;
-    color:#582EE1;
+    color:#572EE5;
     letter-spacing: 0;
     text-decoration: none;
     list-style-type: none;
@@ -88,7 +88,7 @@ body {
   
   ul {
     list-style: none;
-    background:#582EE1;
+    background:#572EE5;
     line-height: 2.5em;
     margin-left: -2em;
     margin-top: 2em;
@@ -107,7 +107,7 @@ body {
   }
   
   .checkbox:checked ~ .menu {
-    background: #582EE1;
+    background: #572EE5;
     top: 0rem;
     z-index: 7;
   }
@@ -126,22 +126,50 @@ body {
     top: 0;
   }
 
+  .landing-page div{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .landing-page p{
+    margin-left:  45px;
+    margin-right: 45px;
+  }
+
+  .landing-page img{
+    width: 68%;
+  }
+
   .landing-page{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color:#572EE5;
     top: 5rem;
-    padding-top: 5rem;
     position: relative; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    text-align: center;
+    
+  }
+
+    .landing-page p span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #50E3C2;
   }
 
   .buscador{
     background-image: url('./assets/icon-search.svg');
-    background-position: right right ; 
-    background-size: 100% 100%; 
-    background-position-x: 31vw;
-    margin-top: 9px;
-    margin-left: 20px;
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position-x: 93%;
+    background-position-y: center;
     height: 2.5rem;
     width: 80vw;
     border-radius: 28px;
+    border-color:  #572EE5 ;
     text-align: center;
     align-content: center;
     
