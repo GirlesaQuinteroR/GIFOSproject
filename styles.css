@@ -203,3 +203,8 @@ body {
     background-color: #F3F5F8;
     margin-top: 20px;
   }
+
+  .animated-gifos img{
+    width: 10em;
+    height: 10em;
+  }

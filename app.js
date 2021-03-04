@@ -29,9 +29,6 @@ const urlTrending = `https://api.giphy.com/v1/gifs/trending?api_key=${apiKey}&li
                 giphyMobile.insertAdjacentElement('afterbegin', gifBox)
                 gifURL = trending.data[i].images.downsized.url
                 gifBox.setAttribute('src', gifURL)                
-                gifBox.setAttribute('width', '10%')
-                gifBox.setAttribute('height','10%' )
-
 
             }})
         .catch(err => {
