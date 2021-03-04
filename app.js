@@ -27,10 +27,11 @@ const urlTrending = `https://api.giphy.com/v1/gifs/trending?api_key=${apiKey}&li
                 let giphyMobile = document.querySelector('.animated-gifos')
                 let gifBox = document.createElement('img')
                 giphyMobile.insertAdjacentElement('afterbegin', gifBox)
-                gifURL = trending.data[i].images.downsized_small.url
-                gifBox.setAttribute('src', gifURL)
-                gifBox.setAttribute('width', '100px')
-                gifBox.setAttribute('height','100px' )
+                gifURL = trending.data[i].images.downsized.url
+                gifBox.setAttribute('src', gifURL)                
+                gifBox.setAttribute('width', '10%')
+                gifBox.setAttribute('height','10%' )
+
 
             }})
         .catch(err => {
