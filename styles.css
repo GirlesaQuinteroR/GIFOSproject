@@ -20,13 +20,14 @@ body {
   }
   
   .header-container {
-    width: 90%;
+    width: 83%;
     position: relative;
-    margin: 1rem auto;
+    margin-left: 20px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
   
   .logo {
     width: 3rem;
@@ -185,4 +186,20 @@ body {
 
   .trending-giphy{
     width: 80vw;
+  }
+
+  #GIFOS-title{
+    color: #572EE5;
+    font-weight: bold;
+    width: 100vw;
+    margin-top: 46px;
+  }
+
+  .GIFOS-description{
+    color:black;
+  }
+
+  .Trending-GIFOS{
+    background-color: #F3F5F8;
+    margin-top: 20px;
   }

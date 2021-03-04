@@ -19,3 +19,20 @@ const urlTrending = `https://api.giphy.com/v1/gifs/trending?api_key=${apiKey}&li
         .catch(err => {
             console.error(err)
         })
+
+        fetch(urlTrending)
+        .then(response => response.json())
+        .then(trending => {
+            for (let i = 0; i < limitGIF; i++) {
+                let giphyMobile = document.querySelector('.animated-gifos')
+                let gifBox = document.createElement('img')
+                giphyMobile.insertAdjacentElement('afterbegin', gifBox)
+                gifURL = trending.data[i].images.downsized_small.url
+                gifBox.setAttribute('src', gifURL)
+                gifBox.setAttribute('width', '100px')
+                gifBox.setAttribute('height','100px' )
+
+            }})
+        .catch(err => {
+            console.error(err)
+        })
