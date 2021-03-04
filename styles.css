@@ -174,3 +174,15 @@ body {
     align-content: center;
     
   }
+
+  .trendings-section{
+    color: #572EE5;
+    font-weight: bold;
+    width: 100vw;
+    margin-top: 46px;
+
+  }
+
+  .trending-giphy{
+    width: 80vw;
+  }
