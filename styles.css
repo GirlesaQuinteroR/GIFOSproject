@@ -1,8 +1,13 @@
-body {
-    margin: 0px;
-    padding: 0px;
-  }
-  
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+ 
   .menuContainer {
     display: flex;
     position: relative;
@@ -22,8 +27,8 @@ body {
   .header-container {
     width: 88%;
     position: relative;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 2rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,8 +68,8 @@ body {
   }
 
   hr{
-    border: 1px solid white;
-    width: 100px;
+    border: 0.1rem solid white;
+    width: 10rem;
     align-items: center;
     border-radius: 5px;
     
@@ -129,17 +134,17 @@ body {
 
 
   .landing-page p{
-    margin-left:  45px;
-    margin-right: 45px;
+    margin-left:  4.5rem;
+    margin-right: 4.5rem;
   }
 
   .landing-page img{
-    width: 68%;
+    width: 75%;
   }
 
   .landing-page{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 2.5rem;
     color:#572EE5;
     top: 5rem;
     position: relative; 
@@ -164,7 +169,7 @@ body {
     background-position-y: center;
     height: 2.5rem;
     width: 80vw;
-    border-radius: 28px;
+    border-radius: 2.8rem;
     border-color:  #572EE5 ;
     text-align: center;
     align-content: center;
@@ -174,7 +179,7 @@ body {
   .trendings-section{
     color: #572EE5;
     font-weight: bold;
-    margin-top: 46px;
+    margin-top: 4.6rem;
 
   }
 
@@ -186,7 +191,7 @@ body {
     color: #572EE5;
     font-weight: bold;
     width: 100vw;
-    margin-top: 46px;
+    margin-top: 4.6rem;
   }
 
   .GIFOS-description{
@@ -195,11 +200,33 @@ body {
 
   .Trending-GIFOS{
     background-color: #F3F5F8;
-    margin-top: 20px;
+    margin-top: 2rem;
   }
 
-  .GIFcard{
-    width: 10%;
-    height: 10%;
+
+  .carousel{
+    display: flex;
+    flex-direction:row;
+    position: relative;
   }
 
+.animated-gifos{
+  display: flex;
+}
+
+.GIFbox{
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+}
+
+#animated-gifos div.GIFcard img{
+  width: 22rem;
+  height: 19rem;
+  overflow: hidden;
+  object-fit: cover;
+  scroll-snap-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
